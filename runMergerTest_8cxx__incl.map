@@ -1,0 +1,16 @@
+<map id="Framework/src/runMergerTest.cxx" name="Framework/src/runMergerTest.cxx">
+<area shape="rect" id="node9" href="$Checker_8h.html" title="QualityControl/Checker.h" alt="" coords="1255,87,1424,114"/>
+<area shape="rect" id="node43" href="$CheckerFactory_8h.html" title="QualityControl/CheckerFactory.h" alt="" coords="1017,87,1230,114"/>
+<area shape="rect" id="node45" href="$HistoMerger_8h.html" title="QualityControl/HistoMerger.h" alt="" coords="2545,87,2736,114"/>
+<area shape="rect" id="node49" href="$TaskRunnerFactory_8h.html" title="QualityControl/TaskRunner\lFactory.h" alt="" coords="485,80,665,121"/>
+<area shape="rect" id="node15" href="$CheckInterface_8h.html" title="QualityControl/CheckInterface.h" alt="" coords="792,319,1001,345"/>
+<area shape="rect" id="node16" href="$MonitorObject_8h.html" title="QualityControl/MonitorObject.h" alt="" coords="835,393,1036,420"/>
+<area shape="rect" id="node24" href="$DatabaseInterface_8h.html" title="QualityControl/DatabaseInterface.h" alt="" coords="1026,319,1253,345"/>
+<area shape="rect" id="node26" href="$QcInfoLogger_8h.html" title="QualityControl/QcInfoLogger.h" alt="" coords="1745,169,1944,196"/>
+<area shape="rect" id="node21" href="$Quality_8h.html" title="QualityControl/Quality.h" alt="" coords="1131,475,1292,502"/>
+<area shape="rect" id="node27" href="$TaskInterface_8h.html" title="TaskInterface.h" alt="" coords="1872,244,1985,271"/>
+<area shape="rect" id="node31" href="$Activity_8h.html" title="QualityControl/Activity.h" alt="" coords="1847,319,2011,345"/>
+<area shape="rect" id="node32" href="$ObjectsManager_8h.html" title="QualityControl/ObjectsManager.h" alt="" coords="2137,319,2352,345"/>
+<area shape="rect" id="node33" href="$TaskConfig_8h.html" title="QualityControl/TaskConfig.h" alt="" coords="1590,393,1777,420"/>
+<area shape="rect" id="node34" href="$ServiceDiscovery_8h_source.html" title="QualityControl/ServiceDiscovery.h" alt="" coords="2281,393,2504,420"/>
+</map>
