@@ -7,7 +7,7 @@ DONOR=Skeleton
 DONOR_LC=skeleton
 
 function inplace_sed() {
-  sed -ibck "$1" $2 && rm $2bck
+  sed -ibck ''"$1"'' $2 && rm $2bck
 }
 
 # Checks if current pwd matches the location of this script, exits if it is not
