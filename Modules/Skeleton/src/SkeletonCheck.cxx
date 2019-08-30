@@ -32,7 +32,7 @@ Quality SkeletonCheck::check(const MonitorObject* mo)
 {
   Quality result = Quality::Null;
 
-  if (mo->getName() == "example") {
+  if (mo->getName() == "example-la") {
     auto* h = dynamic_cast<TH1F*>(mo->getObject());
 
     result = Quality::Good;

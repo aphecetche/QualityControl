@@ -96,7 +96,7 @@ BOOST_AUTO_TEST_CASE(mo_save)
   TFile file(filename.data(), "RECREATE");
   obj.Write(obj.getName().data());
   file.Close();
-
+  cout << "filename=" << filename << "\n";
   cout << "***" << endl;
   TFile file2(filename.data());
   o2::quality_control::core::MonitorObject* mo = dynamic_cast<o2::quality_control::core::MonitorObject*>(file2.Get(objectName.data()));
@@ -113,7 +113,7 @@ BOOST_AUTO_TEST_CASE(mo_save)
   CheckDefinition c2 = mo->getCheck("name2");
   cout << "check2 libraryName : " << c2.libraryName << endl;
   BOOST_CHECK_EQUAL(c2.libraryName, libName2);
-  gSystem->Unlink(filename.data());
+  // gSystem->Unlink(filename.data());
 }
 
 } // namespace o2::quality_control::core
