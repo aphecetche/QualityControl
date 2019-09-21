@@ -2,8 +2,6 @@
 
 cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 
-enable_testing()
-
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 include(CMakeParseArguments)
@@ -16,6 +14,8 @@ project(QualityControl
                        # releases
         DESCRIPTION "O2 Data Quality Control Framework"
         LANGUAGES CXX C)
+
+include(CTest)
 
 # Set CMAKE_INSTALL_LIBDIR explicitly to lib (to avoid lib64 on CC7)
 set(CMAKE_INSTALL_LIBDIR lib)
@@ -75,6 +75,7 @@ endif()
 # Add compiler flags for warnings and (more importantly) fPIC and debug symbols
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -pedantic -Wextra")
 
+
 # Set fPIC for all targets
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
@@ -117,3 +118,5 @@ configure_file(getTestDataDirectory.cxx.in getTestDataDirectory.cxx)
 add_subdirectory(Framework)
 add_subdirectory(Modules)
 add_subdirectory(doc)
+
+message(STATUS "CXX_FLAGS at end of top CMakeLists.txt=${CMAKE_CXX_FLAGS}")

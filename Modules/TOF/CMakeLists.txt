@@ -25,8 +25,7 @@ add_root_dictionary(QcTOF
                             include/TOF/TOFCheckRawsMulti.h
                             include/TOF/TOFCheckRawsTime.h
                             include/TOF/TOFCheckRawsToT.h
-                    LINKDEF include/TOF/LinkDef.h
-                    BASENAME QcTOF)
+                    LINKDEF include/TOF/LinkDef.h)
 
 # ---- Test(s) ----
 

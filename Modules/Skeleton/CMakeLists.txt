@@ -22,8 +22,7 @@ install(TARGETS QcSkeleton
 add_root_dictionary(QcSkeleton
                     HEADERS include/Skeleton/SkeletonTask.h
                             include/Skeleton/SkeletonCheck.h
-                    LINKDEF "include/Skeleton/LinkDef.h"
-                    BASENAME QcSkeleton)
+                    LINKDEF "include/Skeleton/LinkDef.h")
 
 # ---- Tests ----
 

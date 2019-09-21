@@ -13,8 +13,7 @@ target_link_libraries(QcDaq PUBLIC QualityControl PRIVATE ROOT::Gpad)
 add_root_dictionary(QcDaq
                     HEADERS include/Daq/DaqTask.h
                             include/Daq/EverIncreasingGraph.h
-                    LINKDEF include/Daq/LinkDef.h
-                    BASENAME QcDaq)
+                    LINKDEF include/Daq/LinkDef.h)
 
 install(TARGETS QcDaq
         LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}

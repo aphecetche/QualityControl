@@ -12,8 +12,7 @@ target_link_libraries(QcEMCAL PUBLIC QualityControl O2::EMCALBase)
 
 add_root_dictionary(QcEMCAL
                     HEADERS include/EMCAL/DigitsQcTask.h
-                    LINKDEF include/EMCAL/LinkDef.h
-                    BASENAME QcEMCAL)
+                    LINKDEF include/EMCAL/LinkDef.h)
 
 install(TARGETS QcEMCAL
         LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}

@@ -1,5 +1,5 @@
 find_path(MS_GSL_INCLUDE_DIR gsl/gsl
-          PATHS ${ms_gsl_ROOT}/include
+        PATHS ${ms_gsl_ROOT}/include $ENV{MS_GSL_ROOT}/include
           NO_DEFAULT_PATH)
 if(NOT MS_GSL_INCLUDE_DIR)
   set(MS_GSL_FOUND FALSE)

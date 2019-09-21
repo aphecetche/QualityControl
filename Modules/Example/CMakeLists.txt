@@ -16,8 +16,7 @@ add_root_dictionary(QcExample
                             include/Example/ExampleTask.h
                             include/Example/FakeCheck.h
                             include/Example/ExampleCondition.h
-                    LINKDEF include/Example/LinkDef.h
-                    BASENAME QcExample)
+                    LINKDEF include/Example/LinkDef.h)
 
 install(TARGETS QcExample
         LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}

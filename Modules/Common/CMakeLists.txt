@@ -24,8 +24,7 @@ install(TARGETS QcCommon
 add_root_dictionary(QcCommon
                     HEADERS include/Common/NonEmpty.h
                             include/Common/MeanIsAbove.h
-                    LINKDEF include/Common/LinkDef.h
-                    BASENAME QcCommon)
+                    LINKDEF include/Common/LinkDef.h)
 
 # ---- Tests ----
 

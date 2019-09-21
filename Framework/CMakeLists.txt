@@ -29,7 +29,6 @@ add_root_dictionary(QualityControlTypes
   HEADERS include/QualityControl/MonitorObject.h
   include/QualityControl/Quality.h
   LINKDEF include/QualityControl/TypesLinkDef.h
-  BASENAME QualityControlTypes
   )
 
 # ---- Library ----
@@ -97,8 +96,7 @@ add_root_dictionary(QualityControl
                             include/QualityControl/TaskRunnerFactory.h
                             include/QualityControl/HistoMerger.h
                             include/QualityControl/InfrastructureGenerator.h
-                    LINKDEF include/QualityControl/LinkDef.h
-                    BASENAME QualityControl)
+                    LINKDEF include/QualityControl/LinkDef.h)
 
 # ---- Executables ----
 
