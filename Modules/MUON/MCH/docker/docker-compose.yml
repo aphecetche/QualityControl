@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  ccdb:
+    build: ccdb
+    ports:
+      - 8080:6565
+    
